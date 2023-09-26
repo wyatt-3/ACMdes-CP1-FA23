@@ -1,5 +1,6 @@
 let firstDiv = document.getElementById("divOne")
 let colorChangeButton = document.getElementById("btnChangeColor")
+let addTextButton = document.getElementById("btnAddText")
 
 console.log(colorChangeButton)
 
@@ -7,5 +8,14 @@ let changeColor = function(){
     firstDiv.style.backgroundColor = "rgb(170,170,230)"
 }
 
+let addText = function(){
+    let someText = "Hello, this is some text"
+    let parag = document.createElement("p")
+    parag.innerText = someText
+    firstDiv.appendChild(parag)
+
+}
+
 firstDiv.style.backgroundColor = "rgb(230, 170, 170)"
 colorChangeButton.addEventListener("click", changeColor)
+addTextButton.addEventListener("click", addText)
