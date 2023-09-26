@@ -5,7 +5,12 @@ let addTextButton = document.getElementById("btnAddText")
 console.log(colorChangeButton)
 
 let changeColor = function(){
-    firstDiv.style.backgroundColor = "rgb(170,170,230)"
+    let redComp = Math.random() * 255
+    let greenComp = Math.random() * 255
+    let blueComp = Math.random() * 255
+
+    let bgColor = "rgb(" + redComp + ", " + greenComp + ", " + blueComp + ")"
+    firstDiv.style.backgroundColor = bgColor
 }
 
 let addText = function(){
