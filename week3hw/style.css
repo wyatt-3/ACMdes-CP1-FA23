@@ -17,7 +17,7 @@
     }
 }
 
-@media (min-width: 800px){
+@media (min-width: 600px){
     .bt1, .bt2, .bt3, .bt4 {
         border: none;
         background: none;
@@ -30,6 +30,26 @@
     }
     #specialimage{
         width:547px;
+    }
+    main, header{
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 785px){
+    .bt1, .bt2, .bt3, .bt4 {
+        border: none;
+        background: none;
+    }
+
+    img {
+        width: 137px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #specialimage{
+        width:750px;
     }
     main, header{
         text-align: center;
