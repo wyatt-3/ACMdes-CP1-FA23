@@ -1,11 +1,15 @@
 @media (min-width: 500px){
+    .bt1, .bt2, .bt3, .bt4 {
+        border: none;
+        background: none;
+    }
     img {
         width: 82px;
         margin-left: auto;
         margin-right: auto;
     }
     #specialimage{
-        width:400px;
+        width:375px;
     }
     main, header{
         text-align: center;
@@ -14,13 +18,18 @@
 }
 
 @media (min-width: 800px){
+    .bt1, .bt2, .bt3, .bt4 {
+        border: none;
+        background: none;
+    }
+
     img {
         width: 125px;
         margin-left: auto;
         margin-right: auto;
     }
     #specialimage{
-        width:572px;
+        width:547px;
     }
     main, header{
         text-align: center;
