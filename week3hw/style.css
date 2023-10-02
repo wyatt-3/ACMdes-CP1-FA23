@@ -1,0 +1,31 @@
+@media (min-width: 500px){
+    img {
+        width: 82px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #specialimage{
+        width:400px;
+    }
+    main, header{
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 800px){
+    img {
+        width: 125px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #specialimage{
+        width:572px;
+    }
+    main, header{
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+
