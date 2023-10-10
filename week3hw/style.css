@@ -1,3 +1,12 @@
+img{
+    max-width: 100%;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
 @media (min-width: 500px){
     .bt1, .bt2, .bt3, .bt4 {
         border: none;
